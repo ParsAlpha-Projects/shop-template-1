@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Phone, Facebook, Twitter, Instagram } from "lucide-react";
+import {
+  Mail,
+  MapPin,
+  Phone,
+  Facebook,
+  Twitter,
+  Instagram,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -30,22 +37,34 @@ export default function Footer() {
             <h4 className="font-semibold">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/" className="text-white/70 hover:text-primary transition">
+                <Link
+                  to="/"
+                  className="text-white/70 hover:text-primary transition"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/shop" className="text-white/70 hover:text-primary transition">
+                <Link
+                  to="/shop"
+                  className="text-white/70 hover:text-primary transition"
+                >
                   Shop
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-white/70 hover:text-primary transition">
+                <Link
+                  to="/about"
+                  className="text-white/70 hover:text-primary transition"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-white/70 hover:text-primary transition">
+                <Link
+                  to="/contact"
+                  className="text-white/70 hover:text-primary transition"
+                >
                   Contact
                 </Link>
               </li>
@@ -57,22 +76,34 @@ export default function Footer() {
             <h4 className="font-semibold">Categories</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="text-white/70 hover:text-primary transition">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-primary transition"
+                >
                   Tires & Wheels
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-primary transition">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-primary transition"
+                >
                   Brakes & Suspension
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-primary transition">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-primary transition"
+                >
                   Engine Parts
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-primary transition">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-primary transition"
+                >
                   Filters & Fluids
                 </a>
               </li>

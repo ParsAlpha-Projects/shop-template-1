@@ -16,7 +16,8 @@ export default function HeroSection() {
                 Quality Parts for Your Vehicle
               </h2>
               <p className="text-secondary/70 mt-4 text-lg">
-                We are the comprehensive source for auto parts and the best choice for repair and maintenance.
+                We are the comprehensive source for auto parts and the best
+                choice for repair and maintenance.
               </p>
             </div>
 
@@ -55,10 +56,16 @@ export default function HeroSection() {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center space-y-4">
                 <div className="text-6xl">🔧</div>
-                <p className="text-secondary font-bold text-xl">Premium Suspension System</p>
-                <p className="text-secondary/60">Advanced engineering for superior performance</p>
+                <p className="text-secondary font-bold text-xl">
+                  Premium Suspension System
+                </p>
+                <p className="text-secondary/60">
+                  Advanced engineering for superior performance
+                </p>
                 <div className="pt-4">
-                  <span className="text-primary font-bold text-2xl">$149.99</span>
+                  <span className="text-primary font-bold text-2xl">
+                    $149.99
+                  </span>
                 </div>
                 <button className="bg-primary text-secondary px-6 py-2 rounded font-semibold hover:bg-opacity-90 transition w-full">
                   Buy Now

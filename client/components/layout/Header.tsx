@@ -6,7 +6,10 @@ interface HeaderProps {
   searchValue?: string;
 }
 
-export default function Header({ onSearchChange, searchValue = "" }: HeaderProps) {
+export default function Header({
+  onSearchChange,
+  searchValue = "",
+}: HeaderProps) {
   return (
     <header className="sticky top-0 z-40 bg-white border-b border-border">
       {/* Top bar with logo and actions */}

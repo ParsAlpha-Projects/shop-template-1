@@ -80,12 +80,15 @@ const defaultProducts: Product[] = [
   },
 ];
 
-export default function ProductCards({ title, products = defaultProducts }: ProductCardsProps) {
+export default function ProductCards({
+  title,
+  products = defaultProducts,
+}: ProductCardsProps) {
   const [wishlist, setWishlist] = useState<number[]>([]);
 
   const toggleWishlist = (id: number) => {
     setWishlist((prev) =>
-      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
+      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id],
     );
   };
 
@@ -113,7 +116,7 @@ export default function ProductCards({ title, products = defaultProducts }: Prod
                     {Math.round(
                       ((product.originalPrice - product.price) /
                         product.originalPrice) *
-                        100
+                        100,
                     )}
                     % OFF
                   </div>
@@ -124,7 +127,9 @@ export default function ProductCards({ title, products = defaultProducts }: Prod
                 >
                   <Heart
                     size={18}
-                    fill={wishlist.includes(product.id) ? "currentColor" : "none"}
+                    fill={
+                      wishlist.includes(product.id) ? "currentColor" : "none"
+                    }
                   />
                 </button>
               </div>
